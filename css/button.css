@@ -1,0 +1,131 @@
+.button3{
+padding: 1700*150px;
+
+}
+.bk{
+	height: 150px;
+}
+.mi{
+	width: 200px;
+	height: 60px;
+	padding:10px ;
+	background-color:#D62727;
+	font-size: 2rem;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 25px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	
+}
+.btn1{
+	color:#EBEBEB ; /*!white *//
+
+}
+.btn1:hover{
+	color:ED1717 ; /*!red */
+}
+
+}
+
+
+.mn{
+	font-family: 'Berkshire Swash', cursive;
+}
+.bn{
+	font-family: 'Black Ops One', cursive;
+}
+.ds{
+	font-family: 'Black Ops One', cursive;
+}
+.bk{
+	background-image:img/ m (4).jpg;
+}
+.blink{
+	
+	position: relative;
+   font-size: 3em;
+
+	color: rgba(0, 100, 0, 1);;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#FF2808);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+	color:#FF2808;
+	text-shadow:none;
+}
+18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+	color: #108522 ;
+	text-shadow: 0 0 10px #108522,
+	            0 0 20px #108522,
+	            0 0 40px #108522,
+	            0 0 80px #108522,
+	            0 0 100px #108522;
+
+}
+}
+.banner{
+	display: inline-flex;
+}
+.banner .static-txt{
+	font-size: 30px;
+	color: #FFFFFF;
+	font-weight: 400;
+}
+.banner .dynamic-txt{
+margin-left:15px ;
+height: 90px;
+line-height:30px ;
+
+overflow: hidden;
+}
+.dynamic-txt li{
+	list-style: none;
+	font-size: 30px;
+	font-weight: 300;
+	color:#BCCB43 ;
+}
+.dynamic-txt li span{
+	position: relative;
+}
+.dynamic-txt li span::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	border-right: 2px solid #BCCB43;
+	animation: typing 3.5s steps(12, start) infinite;
+	background: rgba(0, 100, 0, 1);
+}
+@keyframes typing{
+	100%{
+		left: 100%;
+		margin: 0 -35 0 35px;
+
+	}
+}
+.log{
+	padding: 10px;
+	background-color:#44A111; 
+	font-family: 'Black Ops One', cursive;
+	border-radius: 20px;
+}
+.gh{
+	color:#44A111 ;
+	border-color: darkgreen;
+}
+.log{
+	padding: 10px;
+	background-color:#44A111; 
+	font-family: 'Black Ops One', cursive;
+	border-radius: 20px;
+}

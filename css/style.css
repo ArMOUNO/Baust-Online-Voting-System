@@ -1,0 +1,20 @@
+@media print{
+	#print{
+		display:none;
+	}
+	
+	#sort{
+		display:none;
+	}
+	
+	#position{
+		display:none;
+	}
+	
+	#back{
+		display:none;
+	}
+	.button3{
+	height: 300px;
+}
+}
